@@ -1,0 +1,19 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+
+/* Next Coin Life logo: keep the navy text readable in dark mode */
+.dark #logo img{background:#fff;border-radius:10px;padding:4px 8px}
+
+/* keep the date line below the logo instead of overlapping it */
+#logo .date-today{margin-top:6px!important}
+#logo{padding-top:6px}
+
+/* sticky header: shrink the logo and hide the date so the bar stays slim */
+#header.sticky-header #logo{padding-top:0}
+#header.sticky-header #logo img{height:48px!important}
+#header.sticky-header #logo .date-today{display:none}
